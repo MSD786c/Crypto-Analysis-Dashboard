@@ -1,0 +1,35 @@
+# Requirements for Crypto Market Health & Sentiment Dashboard
+# This file lists all Python packages needed to run the ETL pipeline and dashboard
+
+# Data processing and analysis
+pandas              # Data manipulation and analysis
+numpy               # Numerical computing
+
+# Web framework (for potential API extensions)
+flask               # Lightweight web framework
+
+# Database connectivity
+sqlalchemy          # SQL toolkit and ORM
+psycopg2-binary     # PostgreSQL database adapter
+sqlite3             # Built-in SQLite database (no separate install needed)
+
+# API requests and web data fetching
+requests            # HTTP library for API calls
+
+# Data visualization
+matplotlib          # 2D plotting library
+seaborn             # Statistical data visualization
+plotly              # Interactive graphing library
+dash                # Web application framework for analytical apps
+
+# Dashboard framework
+streamlit           # Framework for creating data apps
+
+# Financial data sources
+yfinance            # Yahoo Finance market data downloader
+
+# Statistical analysis
+statsmodels         # Statistical models and tests
+
+# Progress tracking and user experience
+tqdm                # Progress bar library
